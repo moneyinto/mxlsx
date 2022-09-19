@@ -1,0 +1,20 @@
+{
+    "name": "mxlsx",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "build-bundle": "rm -rf dist & tsc"
+    },
+    "author": "moneyinto",
+    "license": "ISC",
+    "dependencies": {
+        "xlsx": "^0.18.5",
+        "xlsx-js-style": "^1.2.0"
+    },
+    "devDependencies": {}
+}
