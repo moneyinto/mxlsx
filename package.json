@@ -1,6 +1,6 @@
 {
-    "name": "mxlsx",
-    "version": "0.0.1",
+    "name": "mexcel",
+    "version": "0.0.3",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -12,6 +12,10 @@
     },
     "author": "moneyinto",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:moneyinto/mxlsx.git"
+    },
     "dependencies": {
         "xlsx": "^0.18.5",
         "xlsx-js-style": "^1.2.0"

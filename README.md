@@ -1,7 +1,7 @@
 ## mxlsx插件使用文档
 
 ```
-npm i mxlsx
+npm i mexcel
 ```
 
 ### excel导入
@@ -154,7 +154,7 @@ npm i mxlsx
 | 边框样式 | BorderType | 否 | dashDot \| dashDotDot \| dashed \| dotted \| hair \| medium \| mediumDashDot \| mediumDashDotDot \| mediumDashed \| slantDashDot \| thick \| thin | -- |
 
 ```js
-import { exportExcel, IExcel } from "lyx-lib";
+import { exportExcel, IExcel } from "mexcel";
 
 const excelData: IExcel = {
     sheets: [
