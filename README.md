@@ -54,7 +54,7 @@ npm i mexcel
 | globalStyle | 单元格全局样式 具体参数查看下方[单元格样式参数](#cell-setting) | CellStyle | 否 | -- | -- |
 | cellStyle | 具体单元格自定义样式 具体参数查看下方[单元格样式参数](#cell-setting) | ICellStyle | 否 | -- | -- |
 
-- <h5 id="ell-setting">单元格样式参数</h5>
+- <h5 id="cell-setting">单元格样式参数</h5>
 
 | 参数 | 描述 | 类型 | 必填 | 可选值 | 默认值 |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
