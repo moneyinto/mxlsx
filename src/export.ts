@@ -161,7 +161,7 @@ const setRowAndCol = (sheet: ISheet, worksheet: WorkSheet) => {
     worksheet["!rows"] = rows;
 };
 
-export const exportExcel = (excelData: IExcel, success?: () => void, fail?: (err: unknown) => void) => {
+export const exportExcel = (excelData: IExcel, path?: string, success?: () => void, fail?: (err: unknown) => void) => {
     const newExcelData = {
         ...defaultExcel,
         ...excelData
@@ -196,7 +196,7 @@ export const exportExcel = (excelData: IExcel, success?: () => void, fail?: (err
     
         xlsxStyle.writeFile(
             workbook,
-            `${newExcelData.fileName}.${newExcelData.fileExtention}`
+            path ? path : `${newExcelData.fileName}.${newExcelData.fileExtention}`
         );
 
         success && success();

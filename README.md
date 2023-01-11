@@ -25,7 +25,7 @@ npm i mexcel
 
 | 方法 | 描述 | 类型 |
 | ----------- | ----------- | ----------- |
-| exportExcel | 导出 | (excelData: IExcel, success?: () => void, fail?: (err: unknown) => void) => void |
+| exportExcel | 导出 | (excelData: IExcel, path?: string, success?: () => void, fail?: (err: unknown) => void) => void |
 
 ##### 参数说明
 
